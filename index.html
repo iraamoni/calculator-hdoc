@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>A simple calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="calculator">
+            <div id="result">
+                <div id="history">
+                    <p id="history-value"></p>
+                </div>
+                <div id="output">
+                    <p id="output-value"></p>
+                </div>
+            
+            </div>
+            <div class="keyboard">
+                <!-- 1st row -->
+                <button class="operator" id="clear">C</button>
+                <button class="operator" id="backspace">CE</button>
+                <button class="operator" id="percentage">&percnt;</button>
+                <button class="operator" id="slash">&sol;</button>
+                
+                <!-- 2nd row -->
+                <button class="number" id="seven">7</button>
+                <button class="number" id="eight">8</button>
+                <button class="number" id="nine">9</button>
+                <button class="operator" id="times">&ast;</button>
+
+                <!-- 3rd row -->
+                <button class="number" id="four">4</button>
+                <button class="number" id="five">5</button>
+                <button class="number" id="six">6</button>
+                <button class="operator" id="minus">&minus;</button>
+
+                <!-- 4th row -->
+                <button class="number" id="one">1</button>
+                <button class="number" id="two">2</button>
+                <button class="number" id="three">3</button>
+                <button class="operator" id="plus">&plus;</button>
+
+
+                <!-- 5th row -->
+                <button class="empty" id="empty"></button>
+                <button class="number" id="zero">0</button>
+                <button class="empty" id="empty"></button>
+                <button class="operator" id="equal">&equals;</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
